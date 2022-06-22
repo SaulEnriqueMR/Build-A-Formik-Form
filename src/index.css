@@ -35,7 +35,7 @@ label {
 }
 
 input {
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
   padding: .5rem;
   border-radius: .5rem;
 }
@@ -51,7 +51,16 @@ button {
   box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.errorMessage {
+  color: red !important;
+  margin-bottom: .5rem;
 }
